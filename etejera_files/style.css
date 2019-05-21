@@ -1170,13 +1170,14 @@ text-shadow: none;
 	list-style: selection;
 }
 .ieee-image {
-		float: left;
+		/* float: left; */
 		width: 200px;
 		margin-top: 40px;
 }
 
 #about.banner-bottom {
-	background: aliceblue;
+	background-image: url("../etejera_files/head-background.jpg");
+	background-size: cover;
 }
 
 nav.navbar.bootsnav.no-background {
@@ -1185,4 +1186,115 @@ nav.navbar.bootsnav.no-background {
 
 #position-statement {
 	text-align: left;
+	padding-top: 0px;
+	padding-bottom: 0px;
+}
+.firma {
+    position: absolute;
+    width: 100%;
+    /* bottom: -41px; */
+}
+.firma img{
+	width: 175px;
+}
+.frame-group {
+    background-image: url(../etejera_files/frame-head-info.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    padding: 20px 0px 40px;
+}
+.bottom-head {
+    position: absolute;
+    margin-top: -25px;
+    z-index: 2;
+    width: 100%;
+    left: 0px;
+}
+.bottom-head img{
+    width: 100%;
+}
+#position-statement .container {
+    margin: 0px;
+    padding: 0px;
+    width: 100%;
+}
+#position-statement .page-header {
+    text-align: center;
+    padding: 10px;
+    color: white;
+    border: none;
+}
+#position-statement .page-header h4{
+    color: #f95231;
+    min-height: 44px;
+    vertical-align: middle;
+    font-size: 20px;
+    line-height: 22px;
+}
+#position-statement .page-header p{
+    color: white;
+    font-size: 14px;
+    line-height: 20px;
+    max-height: 160px;
+    overflow-y: scroll;
+}
+.proposals .proposal:nth-child(1) {
+	background-color: #005693;
+}
+.proposals .proposal:nth-child(2) {
+	background-color: #004c88;
+}
+.proposals .proposal:nth-child(3) {
+	background-color: #004787;
+}
+.proposals .proposal:nth-child(4) {
+	background-color: #004485;
+}
+.proposals .proposal:nth-child(5) {
+	background-color: #004382;
+}
+.proposals .proposal:nth-child(6) {
+	background-color: #004181;
+}
+
+.proposals .proposal{
+	max-height: 400px;
+	overflow: hidden;
+	padding-top: 25px;
+}
+#position-statement .about-subtitle {
+    position: absolute;
+    top: 0px;
+    z-index: 1;
+    width: 100%;
+    text-align: center;
+    color: #89cdf0;
+    background-color: rgba(255,255,255,0.1);
+    padding:0px;
+    margin: 0px;
+    left: 0px;
+    font-size: 26px;
+    height: 53px;
+    padding-top: 10px;
+}
+.proposals {
+    text-align: center;
+    margin-top: -30px;
+    padding: 0px;
+    margin: 0px;
+}
+#position-statement2 {
+    padding-top: 20px;
+    text-align: left;
+    background-color: #eee;
+}
+.page-header {
+    border-bottom: none;
+}
+.family-pic {
+    width: 100%;
+}
+.container-family-pic {
+    background-image: url("../etejera_files/fondo-foto-familia.jpg");
+    background-size: 100% 100%;
 }
